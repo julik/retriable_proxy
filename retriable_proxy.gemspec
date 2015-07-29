@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/julik/retriable_proxy"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.5"
+  s.rubygems_version = "2.2.2"
   s.summary = "Retry arbitrary method calls on a given object, no matter its class"
 
   if s.respond_to? :specification_version then
