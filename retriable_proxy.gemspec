@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "lib/retriable_proxy.rb",
+    "retriable_proxy.gemspec",
     "spec/retriable_proxy_spec.rb",
     "spec/spec_helper.rb"
   ]
