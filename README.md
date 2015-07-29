@@ -1,5 +1,7 @@
 # retriable_proxy
 
+[![Build Status](https://travis-ci.org/julik/retriable_proxy.svg?branch=master)](https://travis-ci.org/julik/retriable_proxy)
+
 Creates an object wrapper on top of [Retriable.](https://github.com/kamui/retriable)
 The accepted keyword arguments are the same as for Retriable itself.
 
