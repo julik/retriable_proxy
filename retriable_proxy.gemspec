@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.summary = "Retry arbitrary method calls on a given object, no matter its class"
   s.specification_version = 4
 
-  s.add_runtime_dependency(%q<retriable>, [">= 2.0", ">= 3.0"])
+  s.add_runtime_dependency(%q<retriable>, [">= 2.0", "< 4.0"])
   s.add_development_dependency(%q<rspec>, ["~> 3.2.0"])
   s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
   s.add_development_dependency(%q<rake>, ["~> 10"])
