@@ -1,7 +1,7 @@
 require 'retriable'
+require_relative 'retriable_proxy/version'
 
 module RetriableProxy
-  VERSION = '1.0.0'
   
   class Wrapper
     # Creates a new Wrapper that will wrap the messages to the wrapped object with
