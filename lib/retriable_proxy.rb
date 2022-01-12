@@ -26,13 +26,8 @@ module RetriableProxy
     end
   
     # Forwards all methods not defined on the Wrapper to the wrapped object.
-    def method_missing(*a)
-      method_name = a[0]
-      if block_given?
-        __retrying(method_name) { @o.public_send(*a){|*ba| yield(*ba)} }
-      else
-        __retrying(method_name) { @o.public_send(*a) }
-      end
+    def method_missing(method_name, ...)
+      __retrying(method_name) { @o.public_send(method_name, ...) }
     end
   
     private
