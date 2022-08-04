@@ -34,5 +34,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<rspec>, ["~> 3.2.0"])
   s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
   s.add_development_dependency(%q<rake>, ["~> 10"])
-  s.add_development_dependency(%q<bundler>, ["~> 1.0"])
+  s.add_development_dependency(%q<bundler>, ["~> 2.0"])
 end
